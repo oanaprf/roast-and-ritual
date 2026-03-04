@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Brand palette */
+  --color-espresso: #2e1f1c;
+  --color-roast: #6f4e37;
+  --color-latte: #c4a484;
+  --color-cream: #f5ebdd;
+
+  /* Font stacks — no external network required */
+  --font-serif: 'Palatino Linotype', 'Book Antiqua', Palatino, 'Times New Roman', Georgia, serif;
+  --font-sans: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+}
+
+:root {
+  --background: #f5ebdd;
+  --foreground: #2e1f1c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Serif utility for headings */
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Animated underline for nav links */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: currentColor;
+  transition: width 0.25s ease;
+}
+.nav-link:hover::after {
+  width: 100%;
+}

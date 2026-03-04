@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "about": "Our Story",
+    "contact": "Visit Us",
+    "orderNow": "Order Now"
+  },
+  "hero": {
+    "eyebrow": "Est. 2012 · Handcrafted With Love",
+    "heading": "Where Every Cup\nTells a Story",
+    "subheading": "Slow mornings, bold roasts, and the kind of warmth you carry with you all day.",
+    "ctaPrimary": "Explore Our Menu",
+    "ctaSecondary": "Our Story"
+  },
+  "menu": {
+    "eyebrow": "The Ritual",
+    "heading": "Crafted to Perfection",
+    "subheading": "Every drink on our menu is a small ceremony — made with single-origin beans and unhurried hands.",
+    "items": [
+      {
+        "name": "Ritual Espresso",
+        "description": "A double shot of our house blend — dark, syrupy, and unapologetically bold.",
+        "price": "$4.50",
+        "tag": "Signature"
+      },
+      {
+        "name": "Velvet Latte",
+        "description": "Silky steamed oat milk poured over a single origin espresso. Warm and nutty.",
+        "price": "$6.00",
+        "tag": "Favorite"
+      },
+      {
+        "name": "Pour-Over Reserve",
+        "description": "A slow, meditative brew. Rotating single-origin beans, light to medium roast.",
+        "price": "$7.50",
+        "tag": "Specialty"
+      },
+      {
+        "name": "Honey Cardamom Flat White",
+        "description": "Microfoam milk, wild-flower honey, and a whisper of cardamom.",
+        "price": "$6.50",
+        "tag": "Seasonal"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Our Story",
+    "heading": "Coffee Is Our\nMorning Ritual",
+    "body1": "Roast & Ritual began as a single corner table, two friends, and a shared obsession with the craft of coffee. We believed then — and believe now — that a great cup of coffee is more than a drink. It is a pause. A breath. A small act of care.",
+    "body2": "Every bean we source is traced back to its farm. Every roast is calibrated by hand. Every drink is made as if it is the only one we will make today.",
+    "stat1Value": "12+",
+    "stat1Label": "Years of roasting",
+    "stat2Value": "8",
+    "stat2Label": "Origin partners",
+    "stat3Value": "100%",
+    "stat3Label": "Ethically sourced"
+  },
+  "cta": {
+    "eyebrow": "Come Find Us",
+    "heading": "A Warm Cup\nAwaits You",
+    "address": "42 Ember Lane, Portland, OR 97201",
+    "hours": "Mon – Fri: 7am – 7pm\nSat – Sun: 8am – 6pm",
+    "phone": "+1 (503) 555-0182",
+    "buttonMap": "Get Directions",
+    "buttonOrder": "Order Ahead"
+  },
+  "footer": {
+    "tagline": "Slow down. Drink well.",
+    "rights": "© 2024 Roast & Ritual. All rights reserved."
+  }
+}
