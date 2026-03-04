@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - claude/roast-ritual-landing-kUVbG
+      - main
 
 # Required permissions for the Pages deployment API
 permissions:
